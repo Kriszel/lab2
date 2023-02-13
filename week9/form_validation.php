@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 	
 	$sql = "INSERT INTO kvdizon_myguests (name, email, website, comments, gender)
-	VALUES ('$name','$email','$website','$comments','$gender')";
+	VALUES ('$name','$email','$website','$comment','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";
