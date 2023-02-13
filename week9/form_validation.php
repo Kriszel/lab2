@@ -115,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO myguests (name, email, website, comments, gender)
+	$sql = "INSERT INTO kvdizon_myguests (name, email, website, comments, gender)
 	VALUES ('$name','$email','$website','$comments','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
