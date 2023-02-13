@@ -45,7 +45,7 @@ $sql = "SELECT * FROM kvdizon_myguests";
                         <td>".$row["id"]."</td>
                         <td>".$row["name"]."</td>
                         <td>".$row["gender"]."</td>
-                        <td>".$row["comment"]."</td>
+                        <td>".$row["comments"]."</td>
                         <td>".$row["email"]."</td>
                         <td>".$row["website"]."</td>
                         <td>".$row["reg_date"]."</td>
