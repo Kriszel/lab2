@@ -62,8 +62,8 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="profile.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="landing.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> CATS</a>
+    <a href="profile.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="landing.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> CATS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -72,8 +72,8 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="profile.html">ABOUT</a>
-    <a href="landing.html">CATS</a>
+    <a href="profile.php">ABOUT</a>
+    <a href="landing.php">CATS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH Here</a>
   </div>
@@ -230,7 +230,7 @@ body, html {
     <a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
     <a href="https://www.linkedin.com/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   </div>
-  <p>Powered by <a href="landing.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">TWSA</a></p>
+  <p>Powered by <a href="landing.php" title="W3.CSS" target="_blank" class="w3-hover-text-green">TWSA</a></p>
 </footer>
  
 <script>

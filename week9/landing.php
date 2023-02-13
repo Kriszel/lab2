@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Landing</title>
+<style>
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/82/73/25/360_F_282732526_EnQdNrOJJNfhDy3PPNzdsV4U3QGAPJHU.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+header{
+width: 100%; height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav{
+width: 100%; height: 15vh;
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav .mainmenu{
+width: 20%;
+display: flex; justify-content: space-around;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 3px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class = "logo"><a href = "https://ih1.redbubble.net/image.1517763389.1901/st,small,507x507-pad,600x600,f8f8f8.jpg" alt = "logo" width="100" height="100"></a></div>
+<div class = "mainmenu">
+<a href="profile.html">Home</a>
+<a href="profile.html">About Me</a>
+<a href="index.html">Do not Disturb</a>
+</div>
+</nav>
+<main>
+    <section>
+    <div class = "change_text"><b>This is under maintenance!</b></div>
+    <p><i>this world is collapsing!</i></p><br>
+        <a class="nav-link" href="https://github.com/Kriszel/lab2">
+        <input type = button value = "come here">
+        </a></section>
+</main>
+</header>
+</body>
+</html>

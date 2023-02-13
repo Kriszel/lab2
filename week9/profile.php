@@ -1,0 +1,107 @@
+<html>
+<!--This example uses the default bootstrap stylesheet-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--provides a full-width container that can expand or collapse based on the size of viewport-->
+<script>
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    
+    const d = new Date();
+    let month = months[d.getMonth()];
+    document.getElementById("demo").innerHTML = month;
+    </script>
+    
+<div class="container-fluid">
+   <div class="row">
+       <div class="col-md-2 col-sm-12 col-xs-12">
+           <nav id="navbar">
+               <h3>Technical Documentation</h3>
+               <!--content stacking for smaller screens-->
+               <ul class="nav nav-pills nav-stacked">
+                <!--internal linking to the respective sections-->
+                   <a class="nav-link" href="#Introduction" rel="internal">
+                       <li>Introduction</li>
+                   </a>
+                   <a class="nav-link" href="#What_you_should_already_know" rel="internal">
+                       <li>What you should already know</li>
+                   </a>
+                   <a class="nav-link" href="#About_Topic" rel="internal">
+                       <li>Something new(?) about me</li>
+                   </a>
+                   <a class="nav-link" href="https://omniscient-readers-viewpoint.fandom.com/wiki/Omniscient_Reader%27s_Viewpoint">
+                       <li>Novel 1</li>
+                   </a>
+                   <a class="nav-link" href="https://trash-of-the-counts-family.fandom.com/wiki/Cale_Henituse">
+                       <li>Novel 2</li>
+                   </a>
+                   <a class="nav-link" href="https://the-sclasses-that-i-raised-wiki.fandom.com/wiki/The_S-Classes_That_I_Raised_Wiki">
+                        <li>Novel 3</li>
+                    </a>
+                </ul>
+           </nav>
+       </div>
+       <div class="col-md-10 col-sm-12 col-xs-12">
+           <main id="main-doc">
+               <section class="main-section" id="Introduction" >
+                <!--basic styling for the headings, better practice to do the same in a css file as the styling is same for all headers-->
+                   <h3 style = "background: white; color: black">Introduction</h3>
+                   <article>
+                   <p>not really an introduction
+                       </article>
+               </section>
+               <section class="main-section" id="What_you_should_already_know">
+                   <h3 style = "background: white; color: black"> What i took interest in the past few years</h3>
+                   <article>
+                       <p>novel reads:</p>
+<!--creating list using html-->
+                       <li>Omniscient Reader's Viewpoint</li>
+                       <li>Trash of the Count's Family</li>
+                       <li>The S-Classes that I Raised</li>
+                       <p>these novels are ambigiuous and good reads ~(* 3*)~ </p>
+                       </artice>
+               </section>
+               <section class="main-section" id="About_Topic">
+                   <h3 style = "background: white; color: black"> About me(?)</h3>
+                   <article>
+                       <p>Im from BSCS-SS211</p>
+                       <p>
+                       I have four cats, mostly chonky
+                       </p>
+                       <p>
+                       I took interest in make up and cosmetics
+                       </p>
+                   </article>
+               </section>
+               <section class="main-section" id="Topic_1">
+                   <h3 style = "background: white; color: black"> ORV</h3>
+                   <article>
+                    Omniscient Reader's Viewpoint (also called Omniscient Reader and often abbreviated to ORV) is an apocalyptic fantasy fiction webnovel, written by a Korean author duo writing under the pen name Sing Shong. It was originally written in Korean, and has been translated to English by Webnovel translators RainbowTurtle and A_Passing_Wanderer.
+                    <code>   <a href = "https://omniscient-readers-viewpoint.fandom.com/wiki/Omniscient_Reader%27s_Viewpoint" alt="ORV"></a>
+                   </code></article>
+               </section>
+               <section class="main-section" id="Topic_2">
+                   <h3 style = "background: white; color: black"> TCF</h3>
+                   <p>
+                    Cale Henituse, formerly known as Kim Rok Soo, is the main protagonist of the novel. His soul was moved into the body of Cale Henituse: a minor antagonist from the novel (courtesy of the God of Death). Prior to transmigrating, he had only read the first 5 volumes of the novel. As a result, he did not know the events that would happen after the first 5 volumes.
+
+Kim Rok Soo was 36 years old[2] when he transmigrated in the body of the 18 years old Cale Henituse.[3] Cale Henituse's body was 18 years old when he transmigrated,[3] while his soul as Kim Rok Soo was 36 years old.[2]
+                   </p>
+               </section>
+               <section class="main-section" id="Topic_3">
+                <h3 style = "background: white; color: black"> S-Class</h3>
+                <p>
+                    An F-Class Hunter.
+
+                    And on top of that, an F-class older brother who can’t even begin to catch up to the heels of his amazing S-class little brother.
+                    
+                    After living a life that fell to pieces and even destroying my little brother’s life, I got another chance by regressing 5 years back. I picked up the resolution:
+                    
+                    This time, instead of making those mistakes, I will quietly and leisurely live my life.
+                    
+                    Is what I thought… but the S-Ranks are all kind of… weird and for some reason I can’t seem to be able to get away at all?                </p>
+            </section>
+           </main>
+       </div>
+   </div>
+</div>
+</html>
