@@ -100,6 +100,8 @@ echo "<br>";
 echo $gender;
 ?>
 
+<a href="guests.php">Go to Guests</a>
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
