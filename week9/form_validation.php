@@ -105,11 +105,11 @@ echo $gender;
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
-	$servername = "localhost";
-	$username = "webprogss211";
-	$password = "webprogss211";
-	$dbname = "webprogss211";
-	
+  $servername = "192.168.150.213";
+  $username = "webprogss211";
+  $password = "fancyR!ce36";
+  $dbname = "webprogss211";
+
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection
@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO kvdizon_myguests (name, email, website, comments, gender)
+	$sql = "INSERT INTO kvdizon_myguests (name, email, website, comment, gender)
 	VALUES ('$name','$email','$website','$comment','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
